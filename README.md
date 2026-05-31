@@ -17,9 +17,6 @@ The program was developed as a practical Python utility using GUI libraries, fil
 * Custom output folder selection
 * Quick save to Desktop
 * Automatic USB folder search
-* Basic filename sanitization
-* Download status messages
-* Dark mode interface
 
 ## Software
 
@@ -48,34 +45,10 @@ Before downloading, the program checks whether the link, output type and save lo
 * Cleaning video titles before saving
 * Displaying basic download feedback in the GUI
 
-## Challenges
-
-Main development challenges:
-
-* creating a simple and readable GUI,
-* handling different save locations,
-* detecting folders on external drives,
-* preparing filenames safe for saving,
-* connecting the GUI with downloading logic,
-* adding support for media conversion.
 
 ## Current status
 
-Working prototype built and tested.
-
-Future improvements:
-
-* improved error handling,
-* progress bar during download,
-* better MP3 conversion workflow,
-* more portable icon path,
-* option to select audio quality,
-* preventing duplicate downloads when multiple formats are selected,
-* packaging the application as an executable file.
-
-## About
-
-Simple Python GUI YouTube downloader built with CustomTkinter, supporting MP3/MP4 download options, filename sanitization and selectable output folders.
+Working prototype.
 
 ## Note
 
